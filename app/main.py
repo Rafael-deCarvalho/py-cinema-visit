@@ -1,10 +1,10 @@
-from app import cinema
-from app import people
+from app.cinema import bar, hall
+from app.people import customer, cinema_staff
 
 
 def cinema_visit(customers: list, hall_number: int, cleaner: str, movie: str) -> None:
 
-    for key, value in customers.itens():
-        CinemaBar.sell_product(customer["food"], customer["name"])
+    for customer in customers:
+        sell_product(customer["food"], customer["name"])
 
     movie_session(movie, customers, cleaner)
