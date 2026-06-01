@@ -1,7 +1,5 @@
-from app.cinema.hall import CinemaHall
-
 class Customer:
-    
+
     def __init__(self, name: str, food: str) -> Customer:
         self.name = name
         self.food = food

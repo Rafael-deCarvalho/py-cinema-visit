@@ -1,5 +1,3 @@
-from app.cinema.hall import CinemaHall
-
 class Cleaner:
 
     def __init__(self, name: str) -> Cleaner:
