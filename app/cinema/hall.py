@@ -1,6 +1,3 @@
-from people import customer
-
-
 class CinemaHall:
 
     def __init__(self, hall_number: int) -> None:
